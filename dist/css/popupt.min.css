@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+#popout {
+  width: 530px;
+  height: 323px;
+  border: 1px solid gray;
+  padding: 35px 35px 50px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -265px;
+  margin-top: -161px;
+}
+#popout b {
+  font-size: 20px;
+  float: right;
+}
+#popout b a {
+  color: #191919;
+}
+#popout #top {
+  margin-bottom: 10px;
+}
+#popout #top :nth-child(1) {
+  color: #191919;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#popout #top :nth-child(1) span {
+  font-size: 18px;
+  color: #df1010;
+  margin-left: 30px;
+}
+#popout #top :nth-child(2) {
+  color: #ababac;
+  font-size: 12px;
+}
+#popout #center {
+  display: flex;
+}
+#popout #center #left img {
+  width: 200px;
+  height: 200px;
+}
+#popout #center #right {
+  margin-left: 25px;
+}
+#popout #center #right #p p {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #191919;
+}
+#popout #center #right #p #kind {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+}
+#popout #center #right #p #kind #pen, #popout #center #right #p #kind #suit, #popout #center #right #p #kind #pencil {
+  width: 95px;
+  height: 36px;
+  background: rgba(255, 64, 85, 0.03);
+  border: 1px solid #dad9d9;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 36px;
+}
+#popout #center #num p {
+  font-size: 12px;
+  color: #191919;
+  margin-bottom: 15px;
+}
+#popout #center #num #arithmetic a {
+  color: #dddada;
+}
+#popout #bottom {
+  margin: 50px 0px;
+  width: 530px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#popout #bottom #cart img {
+  width: 25px;
+}
+#popout #bottom #btn {
+  line-height: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+#popout #bottom #btn #join, #popout #bottom #btn #buy {
+  width: 164px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background: #494949;
+  margin-right: 10px;
+}
+#popout #bottom #btn #join a, #popout #bottom #btn #buy a {
+  color: white;
+}
+#popout #bottom #btn #buy {
+  background: #df1010;
+}

@@ -1,0 +1,128 @@
+@import 'public';
+#popout{
+    width: 530px;
+    height: 323px;
+    border: 1px solid gray;
+    padding: 35px 35px 50px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -265px;
+    margin-top:-161px;
+    b{
+        font-size: 20px;
+        float: right;
+        a{
+            color: #191919;
+        }
+    }
+    #top{
+        margin-bottom: 10px;
+        :nth-child(1){
+            color: #191919;
+            font-size: 18px;
+            margin-bottom: 10px;
+            span{
+                font-size: 18px;
+                color: #df1010;
+                margin-left: 30px;
+            }
+        }
+        :nth-child(2){
+            color: #ababac;
+            font-size: 12px;
+        }
+    }
+    #center{
+        
+        display: flex;
+        #left{
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        #right{
+            margin-left: 25px;
+            #p{
+                p{
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                    font-size: 12px;
+                    color: #191919;
+                }
+                #kind{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: 15px;
+                    #pen{
+                        width: 95px;
+                        height: 36px;
+                        background: rgba(255,64,85,.03);
+                        border: 1px solid rgb(218, 217, 217);
+                        border-radius: 4px;
+                        text-align: center;
+                        line-height: 36px;
+                    }
+                    #pencil{
+                        @extend #pen;
+                    }
+                    #suit{
+                        @extend #pen;
+                    }
+                }
+                
+            }
+            
+        }
+        #num{
+            p{
+                font-size: 12px;
+                color: #191919;
+                margin-bottom: 15px;
+            }
+            #arithmetic{
+                a{
+                  color: #dddada;  
+                }
+                
+
+            }
+        }
+    }
+    #bottom{
+        margin: 50px 0px;
+        width: 530px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        #cart{
+            img{
+                width: 25px;
+            }
+        }
+        #btn{
+            
+            line-height: 40px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            
+            #join{
+                width: 164px;
+                height: 40px;
+                text-align: center;
+                border-radius: 5px;
+                background:#494949;
+                margin-right: 10px;
+                a{
+                    color: white;
+                }
+            }
+            #buy{
+                @extend #join;
+                background: #df1010;
+            }
+        }
+    }
+}

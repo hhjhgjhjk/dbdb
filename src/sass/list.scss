@@ -1,0 +1,116 @@
+@import 'public';
+@import 'pub';
+
+main{
+    margin-bottom: 55px;
+    width: 89%;
+    margin: 0 auto;
+    #p{
+        font-size: 27px;
+        font-weight: bolder;
+        padding-left: 90px;
+        padding-bottom: 60px;
+    }
+    #img{
+        display: flex;
+        justify-content: space-around;
+         flex-wrap: wrap;
+        a{
+            color: #ababac;
+            display: flex;
+            margin-bottom: 12px;
+           .good{
+                width: 280px;
+                height: 330px;
+               img{
+                    width: 260px;
+                    height: 260px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: #3e3a39;
+                    font-size: 16px;
+                }
+                h6{
+                    font-size: 14px;
+                    font-weight: normal
+                }
+                h5{
+                    font-weight: normal;
+                    color: #dd1944;
+                    font-size: 16px;
+                }
+           }
+            
+        }
+    }
+}
+// sidebar
+aside{
+    opacity: 0;
+    width: 48px;
+    height: 200px;
+    position: fixed;
+    right: 30px;
+    top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: white;
+        a{
+        width: 48px;
+        height: 48px;
+        background: #f9f9f9;
+        background-image: url(../img/aside.svg);
+        background-repeat: no-repeat ;
+        position: relative;
+    }
+
+    #a1:hover{
+        background-position: -48px 0px;
+    }
+    #a2{
+        background-position: 0px -48px;
+        div{
+            position: relative;
+            width:196px;
+            height: 70px;
+            background: #f9f9f9;
+            right: 226px;
+            top: -25px;
+            opacity: 0;
+            padding: 10px;
+            p{
+                right: 55px;
+                top: -25px;
+                font-size: 12px;
+                color: #ababac;
+            }
+            :nth-child(1){
+                span{
+                    // cursor: pointer;
+                    color: #44883e;
+                }
+                
+            }
+        }
+    }
+    #a2:hover{
+        background-position: -48px -48px;
+        div{
+            opacity: 1;
+        }
+    }
+    #a3{
+        background-position: 0px -96px;
+    }
+    #a3:hover{
+        background-position: -48px -96px;
+    }
+    #a4{
+        background-position: 0px -144px;
+    }
+    #a4:hover{
+        background-position: -48px -144px;
+    }
+}

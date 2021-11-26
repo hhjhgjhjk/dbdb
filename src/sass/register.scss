@@ -1,0 +1,76 @@
+@import 'public';
+@import 'pub';
+#sign{
+    width: 100%;
+    background: #edf4ed;
+    #logo{
+        width : 1040px;
+        margin: 0 auto;
+        height : 70px;
+        img{
+            width : 142px;
+            margin :20px; 
+        }    
+    }
+}
+main{
+    width: 100%;
+    margin-top: 25px;
+    div{
+        width : 1040px;
+        margin: 0 auto;
+        color: #333;
+        :nth-child(1){
+            font-size: 24px;
+        }
+        :nth-child(2){
+            margin-top: 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        :nth-child(3){
+            @extend :nth-child(2);
+            font-weight: bold;
+        }
+        :nth-child(4){
+            @extend :nth-child(2);
+            input{
+                text-indent: 5px;
+                font-size: 14px;
+                width: 280px;
+                height: 38px;
+                border: 1px solid #e4e6e5;
+            }
+        }
+        :nth-child(5){
+            @extend :nth-child(2);
+            color: #9b9b9b;
+        }
+        :nth-child(6){
+            @extend :nth-child(3);
+            margin-top: 30px;
+        }
+        :nth-child(7){
+            @extend :nth-child(4);
+        }
+        :nth-child(8){
+            @extend :nth-child(5);
+            margin-bottom: 40px;
+        }
+        :nth-child(9){
+            a{
+                display: block;
+                height: 36px;
+                width: 100px;
+                font-size:14px ;
+                background: #41ac52;
+                color: white;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 36px;
+                font-weight: bold;
+            }
+        }
+    }
+   
+}

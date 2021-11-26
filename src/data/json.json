@@ -1,0 +1,23 @@
+{
+   "new":[
+       {
+           "img" : "https://img2.doubanio.com/img/files/file-1636362355-1.jpg",
+           "name" : "豆瓣中性笔",
+           "describe" : "为书写增添仪式感",
+           "price" :"¥29"
+       },
+       {
+        "img" : "https://img9.doubanio.com/img/files/file-1634640581-5.jpg",
+        "name" : "豆瓣读书周历2022",
+        "describe" : "每周推荐一位豆瓣高分作家",
+        "price" :"¥88" 
+       },
+       {
+        "img" : "https://img2.doubanio.com/img/files/file-1633834533-1.jpg",
+        "name" : "豆瓣电影日历2022",
+        "describe" : "每周推荐一位豆瓣高分作家",
+        "price" :"¥99" 
+       }
+
+   ] 
+}
